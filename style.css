@@ -102,6 +102,70 @@ body {
     top: -20px;
 
 }
+.mainformulaire {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.formulaire {
+    flex-basis: 50%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #472e2e;
+    box-sizing: border-box;
+
+}
+
+.case {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(216, 216, 216);
+    border: 1px solid grey;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    width: 56%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 41, 114);
+    padding: 15px;
+    font-family: 'montserrat';
+    border-radius: 3px;
+    margin:5px;
+    width: 100%;
+}
+
+.calendar {
+    border: 0px;
+}
+
+textarea {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(216, 216, 216);
+    border: 1px solid grey;
+    padding: 9px;
+    margin-top: 10px;
+    color: rgb(148, 148, 148);
+    padding-bottom: 100px;
+}
+
+select {
+    background-color: rgb(243, 241, 241);
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(216, 216, 216);
+    border: 1px solid grey;
+    padding: 9px;
+    margin-top: 10px;
+    box-sizing: content-box;
+}
+
 
 
 /*footer*/
