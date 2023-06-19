@@ -102,6 +102,7 @@ body {
     top: -20px;
 
 }
+
 .mainformulaire {
     display: flex;
     margin: 20px;
@@ -135,8 +136,12 @@ input[type=submit] {
     padding: 15px;
     font-family: 'montserrat';
     border-radius: 3px;
-    margin:5px;
+    margin: 5px;
     width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(138, 68, 170);
 }
 
 .calendar {
