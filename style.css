@@ -1,0 +1,134 @@
+body {
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+
+}
+
+/* header*/
+.headerstyle {
+    background-color: rgb(73, 41, 114);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.bouton {
+    padding: 10px;
+    margin: 3px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(73, 41, 114);
+    margin-left: 3px;
+    align-items: center;
+}
+
+/*main*/
+.backgroundimage {
+    background-image: url(images/pattineuse_image_2.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+
+}
+
+.presentation {
+    color: rgb(73, 41, 114);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 29px;
+}
+
+.article {
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.image1 {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.imagestyle {
+    margin: 10px;
+    position: relative;
+}
+
+.titre1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 41, 114);
+    padding: 20px;
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    align-items: center;
+    font-size: 29px;
+    z-index: 10;
+}
+
+.texte1 {
+    font-size: 14px;
+    background-color: rgb(73, 41, 114);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    padding-top: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: -20px;
+
+}
+
+
+/*footer*/
+
+.footerstyle {
+    background-color: rgb(73, 41, 114);
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footerlinks {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.puce {
+    list-style-type: none;
+    margin-left: 10px;
+
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="headerstyle">
+        <img src="./images/logo_pattineuse.webp" class="logo" alt="pattinageartistique">
+        <nav>
+            <a href="index.html" class="bouton">ACCUEIL</a>
+            <a href="formulaire.html" class="bouton">CONTACT</a>
+        </nav>
+    </header>
+
+    <form method="get" action="mail.php">            <div class="backgroundimage">
+                <h1 class="presentation">Nous Contacter</h1>
+            </div>
+        <main>
+
+            <div class="mainformulaire">
+
+
+                <div class="formulaire">
+                    <label for="prenom">Prénom</label><br>
+                    <input class="case" type="text" name="prenom" placeholder="Votre Prénom" id="prenom">
+                    <br> <br>
+                    <label for="nom">Nom</label>
+                    <br>
+                    <input class="case" type="text" name="nom" placeholder="Votre Nom" id="nom">
+                    <br><br>
+                    <label for="mail">Mail</label><br>
+                    <input class="case" type="text" name="mail" placeholder="Votre Mail" id="mail">
+                    <br>
+                    <br>
+                    <label for="message">Vous êtes...</label><br>
+                    <select name="particulier" id="choixmultiples">
+                        <option value="particulier" selected>Un Particulier</option>
+                        <option value="assos">Une association</option>
+                    </select>
+                    <br><br>
+                    <p>Votre matériel</p>
+                    <input type="checkbox" id="patins" name="patins">
+                    <label for="patins"> Des patins à glace</label><br>
+                    <input type="checkbox" id="protege" name="protege">
+                    <label for="protege">Protège-lames</label><br>
+                    <input type="checkbox" id="gants" name="gants">
+                    <label for="gants">Gants</label>
+
+                </div>
+
+                <div class="formulaire">
+
+                    <label for="calendar">Disponibilités</label><br>
+                    <input class="case" type="date" name="calendar" id="calendar" />
+
+                    <br> <br>
+                    <label for="message">Votre message</label><br>
+                    <textarea id="message" name="message" placeholder="cgcxgcx"></textarea>
+
+                    <br><br>
+                    <p>Votre niveau</p>
+                    <input type="radio" id="niv1"
+                    name="niv" value="debut" checked>
+                   <label for="niv1">Débutant</label>
+               <br>
+                   <input type="radio" id="niv2"
+                    name="niv" value="inter">
+                   <label for="niv2">Intermédiaire</label>
+               <br>
+                   <input type="radio" id="niv3"
+                    name="niv" value="avance">
+                   <label for="niv3">Avancé</label>
+                    
+
+                </div>
+
+
+
+
+
+                <input type="submit" value="Envoyer votre demande d'inscription">
+
+
+            </div>
+
+        </main>
+    </form>
+
+    <footer>
+        <div class="footerstyle">
+            <ul class="footerlinks">
+                <li>&copy; 2023 Magic Figure Skating |</li>
+                <li class="puce"> <a href="index.html">ACCUEIL</a></li>
+                <li class="puce"> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
