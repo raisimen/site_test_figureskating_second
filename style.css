@@ -105,8 +105,8 @@ body {
 
 .mainformulaire {
     display: flex;
-    margin: 20px;
     flex-wrap: wrap;
+    margin: 20px;
 
 }
 
@@ -116,6 +116,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: #472e2e;
     box-sizing: border-box;
+    
 
 }
 
@@ -138,6 +139,7 @@ input[type=submit] {
     border-radius: 3px;
     margin: 5px;
     width: 100%;
+
 }
 
 input[type="submit"]:hover {
@@ -158,6 +160,7 @@ textarea {
     margin-top: 10px;
     color: rgb(148, 148, 148);
     padding-bottom: 100px;
+    
 }
 
 select {
@@ -201,3 +204,11 @@ a {
     text-decoration: underline;
     color: #ffffff;
 }
+
+@media screen and (max-width: 600px) {
+    .mainformulaire {
+        flex-direction: column;
+
+    }
+}
+
